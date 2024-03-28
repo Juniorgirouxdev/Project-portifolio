@@ -15,7 +15,12 @@ export default function Card({ name, description, html_url }) {
           <FaJs />
           <FaReact />
         </div>
-        <a href={html_url} target="_blank" rel="nopen" className={styles.card_botao}>
+        <a
+          href={html_url}
+          target="_blank"
+          rel="noopenner norefferer"
+          className={styles.card_botao}
+        >
           <BsArrowRight />
         </a>
       </div>
