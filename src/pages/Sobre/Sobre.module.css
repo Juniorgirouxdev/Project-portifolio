@@ -1,0 +1,54 @@
+.sobre {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bio img {
+  width: 15rem;
+}
+
+.bio span {
+  font-size: 1.125rem;
+  color: var(--red);
+}
+
+.bio span {
+  font-size: 1.125rem;
+  color: var(--secondary);
+}
+
+.textos h2,
+p {
+  margin-bottom: 1rem;
+}
+
+.hardskills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.125rem;
+}
+
+.icones {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icones img {
+  height: 4rem;
+}
